@@ -1,0 +1,6 @@
+[submodule "code/external/mnl_ieegBasics"]
+	path = code/external/mnl_ieegBasics
+	url = https://github.com/MultimodalNeuroimagingLab/mnl_ieegBasics.git
+[submodule "code/external/vistasoft"]
+	path = code/external/vistasoft
+	url = https://github.com/vistalab/vistasoft.git
