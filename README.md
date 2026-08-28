@@ -24,6 +24,7 @@ Participants are identified using anonymized identifiers (`sub-01` through `sub-
 
 To reproduce the analyses, organize the code and data using the following directory structure:
 
+```text
 visual_connectivity/
 ├── README.md
 ├── participants.tsv
@@ -48,8 +49,7 @@ visual_connectivity/
         ├── sub-01/
         ├── ...
         └── sub-23/
-
-
+```
 See the README provided with the OSF data deposit for additional information about the derivative files and coordinate spaces.
 
 
