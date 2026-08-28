@@ -24,7 +24,6 @@ Participants are identified using anonymized identifiers (`sub-01` through `sub-
 
 To reproduce the analyses, organize the code and data using the following directory structure:
 
-```text
 visual_connectivity/
 ├── README.md
 ├── participants.tsv
@@ -53,6 +52,7 @@ visual_connectivity/
 
 See the README provided with the OSF data deposit for additional information about the derivative files and coordinate spaces.
 
+
 ## Clone the repository
 
 Because this repository includes external dependencies as Git submodules, clone it using:
@@ -62,6 +62,7 @@ git clone --recurse-submodules https://github.com/MultimodalNeuroimagingLab/visu
 If the repository has already been cloned without its submodules, run:
 
 git submodule update --init --recursive
+
 
 ## Dependencies
 
@@ -74,6 +75,7 @@ Additional external MATLAB functions distributed with the repository are located
 
 code/external/
 
+
 ## Running the analyses
 
 After downloading the code and arranging the OSF data according to the directory structure above, open:
@@ -83,6 +85,7 @@ code/vc_00principalCode_2share.m
 This script provides the recommended order for reproducing the CCEP analyses and indicates how to run the synthetic-task analyses.
 
 Run the main script section by section rather than executing the entire file at once. Several visualization steps generate memory-intensive figures. After saving or inspecting each figure, close it before continuing to the next section.
+
 
 ## The main workflow includes:
 Loading subject-level CCEP connectivity data.
@@ -98,6 +101,7 @@ Generating the connectivity matrix.
 Calculating the percentage of significant responses.
 The synthetic-task analyses.
 
+
 ## MATLAB and computing environment
 
 The complete project requires approximately 62 GB of disk space, including the preprocessed and derived data, analysis code, and external dependencies.
@@ -111,6 +115,7 @@ Apple M1 Max system
 Testing was performed under macOS Tahoe 26.6.2.
 
 Because several cortical rendering and connectivity-figure steps can require substantial memory, systems with sufficient RAM are recommended.
+
 
 ## Notes
 
